@@ -8,8 +8,4 @@ const FizzBuzz = (num) => {
   return num;
 };
 
-function foo() {
-  return 'blac';
-}
-
 export default FizzBuzz;
