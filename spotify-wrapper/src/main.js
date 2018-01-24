@@ -1,11 +1,15 @@
-const FizzBuzz = (num) => {
+export const search = (query, type) =>
+  fetch(`https://api.spotify.com/v1/search?q=${query}&type=${type}`)
+  .then(data => data.json());
 
-  if (num === 0) return 0;
-  if (num % 3 === 0 && num % 5 === 0) return 'FizzBuzz';
-  if (num % 3 === 0) return 'Fizz';
-  if (num % 5 === 0) return 'Buzz';
+export const searchArtists = query =>
+  search(query, 'artist');
 
-  return num;
-};
+export const searchAlbums = query =>
+  search(query, 'albums');
 
-export default FizzBuzz;
+export const searchTrack = query =>
+  search(query, 'track');
+
+export const searchPlaylist = query =>
+  search(query, 'playlist');
