@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // getAlbum
 // getAlbums
 // getAlbumTracks
