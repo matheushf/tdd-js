@@ -12,6 +12,7 @@
     "commonjs": true
   },
   "rules": {
-    "padded-blocks": "off"
+    "padded-blocks": "off",
+    "prefer-default-export": "off"
   }
 }
