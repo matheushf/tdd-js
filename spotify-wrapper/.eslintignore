@@ -1,4 +1,3 @@
 tests/
 tests/*.js
-tests/*.spec.js
 node_modules/

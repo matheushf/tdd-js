@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import chai, {
   expect,
 } from 'chai';
