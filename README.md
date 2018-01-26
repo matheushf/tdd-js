@@ -1,2 +1,2 @@
 # tdd-js
-Practicing and learning things in JS TDD
+Practicing and learning things in TDD with JS
