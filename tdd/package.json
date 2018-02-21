@@ -2,7 +2,7 @@
   "name": "tdd-js",
   "version": "1.0.0",
   "description": "Part of the TDD course, a wrapper to work with the Spotify WEB API",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "clear": "rimraf lib",
     "lint": "./node_modules/.bin/eslint  src/*.js",
@@ -17,6 +17,10 @@
     "test:coverage": "nyc npm test",
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "author": "matheushf",
   "license": "ISC",
   "nyc": {
